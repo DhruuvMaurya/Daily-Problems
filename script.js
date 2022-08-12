@@ -1,10 +1,5 @@
-function add() {
-  const num1 = 5;
-  const num2 = 3;
+// Get last n characters of a string
 
-  const sum = num1 + num2;
-
-  console.log("The sum of " + num1 + " and " + num2 + " is: " + sum);
+function myFunction(str) {
+  return str.slice(-3);
 }
-
-add();
