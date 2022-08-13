@@ -21,3 +21,9 @@ function myFunction(a, n) {
 function myFunction(a) {
   return a.slice(3);
 }
+
+// 4. Get first half of the string
+
+function myFunction(a) {
+   return a.slice(0, a.length/2)
+}
