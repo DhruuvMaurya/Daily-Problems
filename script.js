@@ -27,3 +27,11 @@ function myFunction(a) {
 function myFunction(a) {
    return a.slice(0, a.length/2)
 }
+
+
+// 5. Get b percent of a and return
+
+function myFunction(a, b) {
+   let per = b/100 * a;
+   return per;
+}
