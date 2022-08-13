@@ -35,3 +35,9 @@ function myFunction(a, b) {
    let per = b/100 * a;
    return per;
 }
+
+// 6. Mathematical expression
+
+function myFunction(a, b, c, d, e, f) {
+   return ((((a+b)-c)*d)/e)**f;
+}
